@@ -27,3 +27,7 @@ The sorted sentence is then pushed into another queue (q2) shared with the writi
 3. Writing (writeFile Function):
 The writing thread retrieves sorted sentences from the queue (q2).
 Each sentence is written to the output file.
+
+### Note:
+- Output.txt here is empty, but when we run our program this will have our expected result.
+
